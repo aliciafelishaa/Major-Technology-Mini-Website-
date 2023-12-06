@@ -1,6 +1,18 @@
-import { db, storeData } from "./db.js";
+import { initialData } from "./db.js";
+
+const db = [
+  ...initialData,
+  ...JSON.parse(sessionStorage.getItem("data") || "[]"),
+];
+
+console.log(db);
+
+function updateSessionStorage(newData) {
+  sessionStorage.setItem("data", JSON.stringify(newData));
+}
 
 // SIGN UP
+console.log(db);
 
 const emailInputSignup = document.querySelector(".signup_input_email");
 const passwordInputSignup = document.querySelector(".signup_input_password");
@@ -41,7 +53,8 @@ export function handleCreateAccount(e) {
     password: userPasswordInput,
   };
 
-  storeData(newUser);
+  db.push(newUser);
+  updateSessionStorage(db);
 
   window.location.href = "SIGNIN.html";
 }
