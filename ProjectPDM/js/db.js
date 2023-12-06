@@ -1,4 +1,4 @@
-export let db = [
+export const initialData = [
   {
     email: "alicia@gmail.com",
     password: "123",
@@ -8,9 +8,3 @@ export let db = [
     password: "999",
   },
 ];
-
-export function storeData(newData) {
-  console.log(newData);
-  db.push(newData);
-  console.log(db);
-}

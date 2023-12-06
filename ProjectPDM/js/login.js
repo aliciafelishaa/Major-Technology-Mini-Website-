@@ -1,7 +1,14 @@
-import { db } from "./db.js";
+// import { db } from "./db.js";
+
+import { initialData } from "./db.js";
 
 // =======================
 // SIGN IN
+
+const db = [
+  ...initialData,
+  ...JSON.parse(sessionStorage.getItem("data") || "[]"),
+];
 
 const passwordInput = document.querySelector(".password__input");
 const emailInput = document.querySelector(".email__input");
