@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyFutureChoice</title>
+    <link rel="stylesheet" href="BIODATA_STYLE_FINAL.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=McLaren&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv"><a href="#"></a></div>
+      <ul>
+        <li class="logo">
+          <img src="./Asset_Logo.png" alt="" />
+        </li>
+        <li>
+          <a href="#" class="aa"><h2>HOME PAGE</h2></a>
+        </li>
+        <li>
+          <a href="#" class="aa"><h2>MAJOR DETAIL</h2></a>
+        </li>
+        <li>
+          <a href="#" class="aa"><h2>TOP UNIVERSITY</h2></a>
+        </li>
+        <li>
+          <button class="myaccount_button">
+            <a href="HOMEPAGE.html" ><h2>SIGN OUT</h2></a>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="fillyourdata wrapper_form">
+        <p class="font_data">Fill Your Data!</p>
+      </div>
+      <br />
+      <br />
+
+      <form action="QUESTION_1.html" class="wrapper_form">
+        <div class="wrapper">
+          <div class="nama">Name:</div>
+          <input
+            type="text"
+            id="nama_text"
+            placeholder="Input Your Name"
+            required
+          />
+
+          <div class="umur">Age:</div>
+          <input
+            type="number"
+            id="nama_text"
+            placeholder="Input Your Age"
+            required
+          />
+
+          <div class="gender-details">
+            <div class="gender-title">Gender:</div>
+            <div class="gender-input">
+              <input type="radio" name="gender" id="dot" />
+              <label for="dot-1">
+                <span class="dot_label"></span>
+                <span class="gender">Male</span>
+              </label>
+              <input type="radio" name="gender" id="dot" />
+              <label for="dot-2">
+                <span class="dot_label"></span>
+
+                <span class="gender">Female</span>
+              </label>
+              <input type="radio" name="gender" id="dot" />
+              <label for="dot-3">
+                <span class="dot_label"></span>
+                <span class="gender">Other</span>
+              </label>
+            </div>
+          </div>
+
+          <button class="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

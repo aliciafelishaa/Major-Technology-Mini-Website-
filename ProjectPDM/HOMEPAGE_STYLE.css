@@ -1,0 +1,568 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0px;
+
+  padding: 1rem;
+  background-color: rgba(48, 43, 43, 1);
+  font-family: "Koulen", sans-serif;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* gap: 9rem; */
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+.navbar ul li a h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navbar ul li a h2:hover {
+  color: grey;
+}
+
+.myaccount_button:hover {
+  color: black;
+  background-color: rgb(178, 178, 178);
+  border: 1px solid rgb(178, 178, 178);
+}
+
+.myaccount_button {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  height: 30px;
+  width: 150px;
+  font-size: 10px;
+  font-family: "Koulen", sans-serif;
+  letter-spacing: 3px;
+  border: none;
+}
+
+.logo {
+  height: 3rem;
+  width: 6rem;
+}
+
+.logo img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav_button:hover {
+  color: gray;
+}
+
+main {
+  margin-top: 9rem;
+}
+
+.head_1 {
+  color: #000;
+  margin-left: 3rem;
+  font-family: "Koulen", sans-serif;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5rem;
+  letter-spacing: 0.2rem;
+}
+
+.head_2 {
+  color: #000;
+  margin-left: 3rem;
+  font-family: "Koulen", sans-serif;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5rem;
+  letter-spacing: 0.4375rem;
+  width: 500px;
+}
+
+.hero-image {
+  float: right;
+  width: 24rem;
+  margin-top: 70px;
+}
+
+.text_head {
+  color: #000;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  text-align: justify;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 125% */
+  letter-spacing: 0.15rem;
+  display: flex;
+}
+
+.get_started {
+  margin-top: 3rem;
+  margin-left: 14rem;
+
+  background-color: rgba(48, 43, 43, 1);
+  color: white;
+  width: 17.98875rem;
+  height: 3.93981rem;
+  flex-shrink: 0;
+  border-radius: 2.5rem;
+  background: black;
+  border: 1px solid black;
+  text-align: center;
+  font-family: "Koulen", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+}
+
+.get_started:hover {
+  background-color: rgb(48, 46, 46);
+  color: white;
+}
+
+#MAJOR_DETAIL {
+  color: black;
+  text-align: center;
+  font-family: Nico Moji;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5rem; /* 222.222% */
+  letter-spacing: 0.225rem;
+}
+
+.container-1 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.container-1 img {
+  width: 14.3125rem;
+  height: 9.5625rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.container-2 img {
+  width: 14.3125rem;
+  height: 9.5625rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-text {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: 10px;
+  font-family: "OCR A Extended" sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.75rem; /* 75% */
+  text-transform: capitalize;
+  gap: 5.5rem;
+  letter-spacing: 1.2px;
+  margin-bottom: 3rem;
+}
+
+.additional {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-family: Kosugi Maru;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.75rem; /* 120% */
+}
+
+#UNIVERSITY {
+  margin-top: 5rem;
+  color: black;
+  text-align: center;
+  font-family: Nico Moji;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5rem; /* 222.222% */
+  letter-spacing: 0.225rem;
+}
+
+.additional-1 {
+  margin-top: 4rem;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: Kosugi Maru;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.75rem;
+}
+
+.container-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 9rem;
+}
+.container-3 img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.container-4 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 9rem;
+}
+.container-4 img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.container-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 9rem;
+}
+.container-5 img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.contact {
+  background-color: rgba(48, 43, 43, 1);
+  width: 100%;
+  height: 10.5rem;
+}
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Koulen;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.15rem;
+}
+
+/* main #second_main{
+  background-color: red;
+}
+
+main #third-main{
+  background-color: blue;
+} */
+
+.ig {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ig .igtext {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.125rem;
+}
+
+.ig .igtext:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.gmail {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gmail .gmailtext {
+  color: white;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+}
+.gmail .gmailtext:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.detail {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wa .wa-text {
+  color: white;
+  font-family: Kumbh Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+}
+
+.wa .wa-text:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.container-ref {
+  max-width: 1000px;
+  margin-inline: auto;
+
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item img {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.item p {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Koulen", sans-serif;
+}
+
+.major-detail-text {
+  position: relative;
+  max-width: 100%;
+  margin-inline: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.major-detail-text p {
+  font-weight: bold;
+  white-space: nowrap;
+  font-family: "Koulen", sans-serif;
+}
+
+.major-detail-text .line {
+  /* position: absolute; */
+  width: 100%;
+  height: 3px;
+  background-color: black;
+
+  top: 50%;
+}
+
+.major-detail-text .line.left {
+  left: 0;
+}
+
+.major-detail-text .line.right {
+  right: 0;
+}
+
+.hero-button {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+/* Buat yang univ */
+.major-detail-text {
+  position: relative;
+  max-width: 100%;
+  margin-inline: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.major-detail-text p {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.major-detail-text .line {
+  /* position: absolute; */
+  width: 100%;
+  height: 3px;
+  background-color: black;
+
+  top: 50%;
+}
+
+.major-detail-text .line.left {
+  left: 0;
+}
+
+.major-detail-text .line.right {
+  right: 0;
+}
+
+.hero-button {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.item .image-container:hover::before {
+  opacity: 0.5;
+}
+
+.item .image-container:hover .popup {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.item .image-container {
+  position: relative;
+  height: 10rem;
+  cursor: pointer;
+}
+
+.item img {
+  height: 100%;
+}
+
+.item .image-container::before {
+  transition: 0.25s;
+  content: "";
+  inset: 0;
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: black;
+  opacity: 0;
+}
+
+.item .popup {
+  transition: 0.25s;
+
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  z-index: 2;
+
+  opacity: 0;
+
+  transform: translate(0, 10px);
+}
+
+/* .item .image-container .popup{
+  font-family: 'Koulen', sans-serif; 
+} */

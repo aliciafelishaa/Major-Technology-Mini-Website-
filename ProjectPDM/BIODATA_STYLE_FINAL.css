@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0px;
+
+  padding: 1rem;
+  background-color: rgba(48, 43, 43, 1);
+  font-family: "Koulen", sans-serif;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 9rem;
+}
+
+.navbar ul li .aa {
+  color: white;
+}
+
+.navbar ul li a h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navbar ul li a h2:hover {
+  color: grey;
+}
+
+.navbar ul li a {
+  color: black;
+}
+.myaccount_button:hover {
+  color: black;
+  background-color: rgb(178, 178, 178);
+  border: 1px solid rgb(178, 178, 178);
+}
+
+.myaccount_button {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  height: 30px;
+  width: 150px;
+  font-size: 10px;
+  font-family: "Koulen", sans-serif;
+  letter-spacing: 3px;
+  border: none;
+}
+
+.myaccount_button a #color {
+  background-color: white;
+  color: black;
+}
+
+.logo {
+  height: 3rem;
+  width: 6rem;
+}
+
+.logo img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  margin-top: 6rem;
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
+.fillyourdata {
+  font-family: "McLaren", sans-serif;
+}
+
+.font_data {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.wrapper_form {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 350px;
+  border-radius: 60px;
+  border: 3px solid rgb(71, 57, 57);
+
+  padding-inline: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.nama {
+  margin-inline: 0px;
+  padding-top: 1rem;
+  font-family: "McLaren", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.umur {
+  padding-top: 1rem;
+  font-family: "McLaren", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+#nama_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 20px;
+  border: 2px solid black;
+  text-align: center;
+  width: 100%;
+}
+
+#age_combobox {
+  margin-inline: 110px;
+  padding-top: 5px;
+  padding-bottom: 9px;
+  padding-left: 9px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
+
+.gender-title {
+  text-align: center;
+  padding-top: 1rem;
+  font-family: "McLaren", sans-serif;
+  color: black;
+}
+
+.submit {
+  text-align: center;
+  margin-top: 6%;
+}
+
+.submit {
+  border-radius: 20px;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  font-family: "McLaren", sans-serif;
+}
+
+.submit:hover {
+  color: whie;
+  background-color: rgb(81, 70, 70);
+}
+
+.gender {
+  font-family: "McLaren", sans-serif;
+  color: black;
+}
+
+.gender-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}

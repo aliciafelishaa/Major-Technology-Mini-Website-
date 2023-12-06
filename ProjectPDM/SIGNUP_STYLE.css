@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0px;
+
+  padding: 1rem;
+  background-color: rgba(48, 43, 43, 1);
+  font-family: "Koulen", sans-serif;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* gap: 9rem; */
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+.navbar ul li a h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navbar ul li a h2:hover {
+  color: grey;
+}
+
+.myaccount_button:hover {
+  color: black;
+  background-color: rgb(178, 178, 178);
+  border: 1px solid rgb(178, 178, 178);
+}
+
+.myaccount_button {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  height: 30px;
+  width: 150px;
+  font-size: 10px;
+  font-family: "Koulen", sans-serif;
+  letter-spacing: 3px;
+  border: none;
+} 
+
+.logo {
+  height: 3rem;
+  width: 6rem;
+}
+
+.logo img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav_button:hover {
+  color: gray;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0px;
+
+  padding: 1rem;
+  background-color: rgba(48, 43, 43, 1);
+  font-family: "Koulen", sans-serif;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* gap: 9rem; */
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+.navbar ul li a h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navbar ul li a h2:hover {
+  color: grey;
+}
+
+.myaccount_button:hover {
+  color: black;
+  background-color: rgb(178, 178, 178);
+  border: 1px solid rgb(178, 178, 178);
+}
+
+.myaccount_button {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  height: 30px;
+  width: 150px;
+  font-size: 10px;
+  font-family: "Koulen", sans-serif;
+  letter-spacing: 3px;
+  border: none;
+}
+
+.logo {
+  height: 3rem;
+  width: 6rem;
+}
+
+.logo img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav_button:hover {
+  color: gray;
+}
+
+main {
+  margin-top: 7rem;
+}
+
+.title-login {
+  justify-items: center;
+  align-items: center;
+  font-family: "McLaren", sans-serif;
+  color: rgba(24, 21, 21, 1);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container-wrapper {
+  margin-top: 2rem;
+  background-color: white;
+  height: 380px;
+  width: 400px;
+  border-radius: 20px;
+  border: 7px solid rgb(71, 57, 57);
+
+  padding-inline: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.email p {
+  text-align: start;
+  color: #2b2222;
+  font-family: Koulen;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0rem;
+}
+
+.email-box {
+  text-align: start;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 40px;
+  width: 20rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pass {
+  margin-bottom: 16px;
+}
+
+.pass p {
+  text-align: start;
+  color: #2b2222;
+  font-family: Koulen;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0rem;
+}
+
+.pass-repeat p {
+  text-align: start;
+  color: #2b2222;
+  font-family: Koulen;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0rem;
+}
+
+.submit {
+  margin-top: 1.5rem;
+  border-radius: 20px;
+  width: 13rem;
+  height: 2.5rem;
+  border: none;
+  color: white;
+  background-color: rgb(0, 85, 255);
+  font-size: 15px;
+  font-family: "McLaren", sans-serif;
+}
+
+.submit:hover {
+  color: white;
+  background-color: rgb(0, 20, 166);
+}
+
+.submit a {
+  color: white;
+}
+
+.title-add {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title-add a:hover {
+  text-decoration: underline;
+}
